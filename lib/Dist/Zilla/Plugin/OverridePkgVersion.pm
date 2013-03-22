@@ -103,7 +103,7 @@ sub munge_file {
 }
 __PACKAGE__->meta->make_immutable;
 1;
-# ABSTRACT: no line insertion and does Package version with our
+# ABSTRACT: Override existing VERSION in a module
 
 =head1 SYNOPSIS
 
